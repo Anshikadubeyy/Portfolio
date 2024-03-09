@@ -4,14 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anshika portfolio</title>
-    <link rel="stylesheet" href="css/copy.css" />
-    <!-- <link rel="stylesheet" href="css/style.css" /> -->
-
+    <!-- css files -->
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/skins/color-1.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
+    <!-- style switcher -->
+    <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled="" />
+    <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled="" />
+    <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled="" />
+    <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled="" />
+    <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled="" />
+
+    <link rel="stylesheet" href="css/style-switcher.css" />
   </head>
   <body>
     <!-- main container start -->
@@ -26,26 +33,27 @@
         </div>
         <ul class="nav">
           <li>
-            <a href="#" class="active"> <i class="fa fa-home"></i>Home</a>
+            <a href="#home" class="active"> <i class="fa fa-home"></i>Home</a>
           </li>
           <li>
-            <a href="#"> <i class="fa fa-user"></i>about</a>
+            <a href="#about"> <i class="fa fa-user"></i>About</a>
           </li>
           <li>
-            <a href="#"> <i class="fa fa-list"></i>Services</a>
+            <a href="#services"> <i class="fa fa-list"></i>Services</a>
           </li>
           <li>
-            <a href="#"> <i class="fa fa-briefcase"></i>Portfolio</a>
+            <a href="#portfolio"> <i class="fa fa-briefcase"></i>Portfolio</a>
           </li>
           <li>
-            <a href="#"> <i class="fa fa-comment"></i>Contact</a>
+            <a href="#contact"> <i class="fa fa-comment"></i>Contact</a>
           </li>
         </ul>
       </div>
+      <!-- aside end -->
       <!-- main content start -->
       <div class="main-content">
         <!-- home section  start -->
-        <section class="home section hidden">
+        <section class="home section" id="home">
           <div class="container">
             <div class="row">
               <div class="home-info padd-15">
@@ -69,7 +77,7 @@
         </section>
         <!-- home section  End  -->
         <!-- about section  start -->
-        <section class="about section hidden">
+        <section class="about section">
           <div class="container">
             <div class="row">
               <div class="section-title padd-15">
@@ -414,53 +422,16 @@
                       finding reliable local businesses.
                     </p>
                     <a
-                      class="but-1"
+                      class="but-1 padd-15"
                       href="https://yatriseva.netlify.app/"
                       target="_blank"
                       >LiveDemo</a
                     ><a
-                      class="but-1 "
+                      class="but-1"
                       href="https://github.com/Anshikadubeyy/rubix24_Swaraksha"
                       target="_blank"
                       >Github</a
                     >
-                  </div>
-                </div>
-              </div>
-              <!--=====  portfolio item End =====-->
-              <!--=====  portfolio item start =====-->
-              <div class="portfolio-item padd-15">
-                <div class="portfolio-item-inner shadow-dark">
-                  <div class="portfolio-img">
-                    <img src="images/portfolio/portf1.png" alt="Project 1" />
-                  </div>
-                  <div class="portfolio-info">
-                    <h3>BloodBank Management System</h3>
-                    <p>
-                      The main aim of this project is to create a well organized
-                      system to save the lives of many people that die due to
-                      the sheer lack of donated blood.
-                    </p>
-                    <a
-                      class="but-1 padd-15"
-                      href="https://github.com/Anshikadubeyy/rubix24_Swaraksha"
-                      target="_blank"
-                      >Github</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <!--=====  portfolio item End =====-->
-
-              <!--=====  portfolio item start =====-->
-              <div class="portfolio-item padd-15">
-                <div class="portfolio-item-inner shadow-dark">
-                  <div class="portfolio-img">
-                    <img src="img/proj7.jpg" alt="Project 4" />
-                  </div>
-                  <div class="portfolio-info">
-                    <h3>Sign Language Detection</h3>
-                    <p>Sign language using YoloV5</p>
                   </div>
                 </div>
               </div>
@@ -470,18 +441,159 @@
                 <div class="portfolio-item-inner shadow-dark">
                   <div class="portfolio-img">
                     <img
-                      src="img/Screenshot 2024-02-03 220638.png"
-                      alt="Project 4"
+                      src="images/portfolio/portf1.png"
+                      alt="Project 1"
+                      style="width: 100%; height: 120px"
                     />
                   </div>
                   <div class="portfolio-info">
-                    <h3>Lung Capacity Analysis</h3>
+                    <h3>BloodBank Management System</h3>
                     <p>
-                      Analyzed a lung capacity data set to explore the
-                      relationship between lung function and various factors
-                      such as age, height, smoking status, gender, and Caesarean
-                      birth.
+                      This project aims to save lives by addressing the shortage
+                      of donated blood through an organized system.
                     </p>
+                    <a
+                      class="but-1 padd-15"
+                      href="https://github.com/DEvackemann/bloodBankManagement"
+                      target="_blank"
+                      >LiveDemo</a
+                    ><a
+                      class="but-1"
+                      href="https://github.com/DEvackemann/bloodBankManagement"
+                      target="_blank"
+                      >Github</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!--=====  portfolio item End =====-->
+
+              <!--=====  portfolio item start =====-->
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img
+                      src="images/portfolio/portf3.png"
+                      alt="Project 4"
+                      style="width: 100%; height: 120px"
+                    />
+                  </div>
+                  <div class="portfolio-info">
+                    <h3>Sign Language Detection</h3>
+                    <p>
+                      Sign language detection using Python, Machine Learning,
+                      and Computer Vision including YOLOv5
+                    </p>
+                    <!-- adding links of demo -->
+                    <a
+                      class="but-1 padd-15"
+                      href="https://github.com/Anshikadubeyy/Sign_language_detection"
+                      target="_blank"
+                      >LiveDemo</a
+                    ><a
+                      class="but-1"
+                      href="https://github.com/Anshikadubeyy/Sign_language_detection"
+                      target="_blank"
+                      >Github</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!--=====  portfolio item End =====-->
+              <!--=====  portfolio item start =====-->
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img
+                      src="images/portfolio/portf4.png "
+                      alt="Project 4"
+                      style="width: 100%; height: 120px"
+                    />
+                  </div>
+                  <div class="portfolio-info">
+                    <h3>Employee Profile Analytics</h3>
+                    <p>
+                      AI-enhanced Data Visualization for Workforce Insights:
+                      Salaries, Gender Equity, Experience-Salary Relationships,
+                      and Educational Diversity with Sweetviz and Dtale.
+                    </p>
+                    <!-- adding links of demo -->
+                    <a
+                      class="but-1 padd-15"
+                      href="file:///C:/Users/dubey/OneDrive/Desktop/Jupyter_notebook/data_summary_report.html"
+                      target="_blank"
+                      >LiveDemo</a
+                    ><a
+                      class="but-1"
+                      href="https://github.com/DEvackemann/IBMassignment"
+                      target="_blank"
+                      >Github</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!--=====  portfolio item End =====-->
+              <!--=====  portfolio item start =====-->
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img
+                      src="images/portfolio/portf5.png "
+                      alt="Project 4"
+                      style="width: 100%; height: 120px"
+                    />
+                  </div>
+                  <div class="portfolio-info">
+                    <h3>Google Drive Clone</h3>
+                    <p>
+                      A Google Drive Clone efficiently stores files with a
+                      user-friendly design for accessibility on various devices.
+                    </p>
+                    <!-- adding links of demo -->
+                    <a
+                      class="but-1 padd-15"
+                      href="https://googledrivee.netlify.app/"
+                      target="_blank"
+                      >LiveDemo</a
+                    ><a
+                      class="but-1"
+                      href="https://github.com/Anshikadubeyy/GoogleDrive_clone"
+                      target="_blank"
+                      >Github</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!--=====  portfolio item End =====-->
+              <!--=====  portfolio item start =====-->
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img
+                      src="images/portfolio/portf6.png "
+                      alt="Project 4"
+                      style="width: 100%; height: 120px"
+                    />
+                  </div>
+                  <div class="portfolio-info">
+                    <h3>Netflix Clone</h3>
+                    <p>
+                      Unlimited movies, TV shows and more.. Ready to watch?
+                      Enter your email to create or restart your membership.
+                    </p>
+                    <!-- adding links of demo -->
+                    <a
+                      class="but-1 padd-15"
+                      href="https://netflixwatchh.netlify.app/"
+                      target="_blank"
+                      >LiveDemo</a
+                    >
+                    <a
+                      class="but-1"
+                      href="https://github.com/Anshikadubeyy/Netflix_Clone"
+                      target="_blank"
+                      >Github</a
+                    >
                   </div>
                 </div>
               </div>
@@ -490,12 +602,191 @@
           </div>
         </section>
         <!--====== Portfolio Section End ===== -->
+        <!--====== Contact Section Start ===== -->
+        <section class="contact section back-section" id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Contact Me</h2>
+              </div>
+            </div>
+            <h3 class="contact-title padd-15">Have You Any Questions ?</h3>
+            <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
+            <div class="row">
+              <!--=====Contact info items Start =====-->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-phone"></i></div>
+                <h4>Call Us On</h4>
+                <p>+91 8591245402</p>
+              </div>
+              <!--=====Contact info items End =====-->
+              <!--=====Contact info items Start =====-->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                <h4>Live in</h4>
+                <p>Mumbai, Maharastra</p>
+              </div>
+              <!--=====Contact info items End =====-->
+              <!--=====Contact info items Start =====-->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-envelope"></i></div>
+                <h4>Email</h4>
+                <p>anshikadubey8591@gmail.com</p>
+              </div>
+              <!--=====Contact info items End =====-->
+              <!--=====Contact info items Start =====-->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                <h4>Website</h4>
+                <p></p>
+              </div>
+              <!--=====Contact info items End =====-->
+            </div>
+            <h3 class="contact-title padd-15">SEND ME AN WHATSAPP MESSAGE</h3>
+            <h4 class="contact-sub-title padd-15">Get In Touch</h4>
+            <!--===== Contact Form ======-->
+            <div class="row">
+              <div class="contact-form padd-15">
+                <div class="row">
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Name"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="email"
+                        class="form-control"
+                        placeholder="Email"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Subject"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <textarea
+                        name=""
+                        class="form-control"
+                        id=""
+                        placeholder="Message"
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <button type="button" class="btn" onclick="sendwhatsapp()">
+                      Send Message
+                    </button>
+                    <!--<button type="submit" class="btn">Send Message </button>-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--====== Contact Section End ===== -->
       </div>
+      <!--====== Main Content End ===== -->
+      <!-- == Style Switcher Start====-->
+      <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+          <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+          <i class="fas fa-moon"></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+          <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+          <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+          <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+          <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+          <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+      </div>
+      <!-- == Style Switcher End====-->
+      <!-- ==== Main Container End ======-->
+      <!-- ====== JS Files  =====-->
+      <script>
+        function sendwhatsapp() {
+          // Get the user's input from the form fields (if applicable)
+          const name = document.querySelector(
+            "input[placeholder='Name']"
+          ).value;
+          const email = document.querySelector(
+            "input[placeholder='Email']"
+          ).value;
+          const subject = document.querySelector(
+            "input[placeholder='Subject']"
+          ).value;
+          const message = document.querySelector("textarea").value;
+
+          // Construct the pre-filled WhatsApp message, including user's details (if applicable)
+          const whatsappMessage = `Hello,\n\n${name} (${email}) has sent you a message through the website contact form:\n\nSubject: ${subject}\n\n${message}`;
+
+          // Create the WhatsApp link with your phone number and pre-filled message
+          const whatsappLink = `https://wa.me/918591245402?text=${encodeURIComponent(
+            whatsappMessage
+          )}`;
+
+          // Redirect the user to the WhatsApp link
+          window.location.href = whatsappLink;
+        }
+      </script>
+
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
+        integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
+      <script src="js/script.js"></script>
+      <script src="js/style-switcher.js"></script>
     </div>
-
-    <!-- main end  -->
-
-    <!-- javascript -->
-    <script src="js/script.js"></script>
+    <style data-typed-js-cursor-css="true">
+      .typed-cursor {
+        opacity: 1;
+      }
+      .typed-cursor.typed-cursor--blink {
+        animation: typedjsBlink 0.7s infinite;
+        -webkit-animation: typedjsBlink 0.7s infinite;
+        animation: typedjsBlink 0.7s infinite;
+      }
+      @keyframes typedjsBlink {
+        50% {
+          opacity: 0;
+        }
+      }
+      @-webkit-keyframes typedjsBlink {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    </style>
   </body>
 </html>

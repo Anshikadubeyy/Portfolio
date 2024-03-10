@@ -1,7 +1,6 @@
 make a starting file 
 open cdn js for font https://cdnjs.com/ copy the url https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css insert it into <head > section 
 
-
 **********CSS************
 *:root: This selector selects the highest-level parent element in the HTML document --bg-black-900, --bg-black-100, --bg-text-50, --text--black-900, --text-black-700: These are custom CSS variables declared within the :root selector. Custom properties or variables in CSS are defined with a double dash (--).
 
@@ -15,7 +14,4 @@ line-height: 1.5;: This property sets the amount of space between lines of text 
 *inside main container 
 <div class="aside">: This is a <div> element with a class attribute set to "aside." aside is side bar <div class="logo">: Inside the "aside" div, there is another <div> element with a class attribute set to "logo. <a href="#"> <span>A</span>tlas</a>: Inside the "logo" div, there is an <a> (anchor) element. This anchor element serves as a hyperlink. <span> element containing the letter "A." This is likely used for styling purposes or to apply specific formatting to the letter "A" within the text.
 
-    https://bhupalikportfolio.netlify.app/
-    https://devswayam.netlify.app/#
-49.42 sec
-about
+
